@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B001001 /* LedgerFinanceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001001 /* LedgerFinanceApp.swift */; };
+		B001002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001002 /* ContentView.swift */; };
+		B001003 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001003 /* Transaction.swift */; };
+		B001004 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001004 /* Account.swift */; };
+		B001005 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001005 /* Category.swift */; };
+		B001006 /* Budget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001006 /* Budget.swift */; };
+		B001007 /* BillReminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001007 /* BillReminder.swift */; };
+		B001008 /* NetWorthEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001008 /* NetWorthEntry.swift */; };
+		B001009 /* StoreKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001009 /* StoreKitManager.swift */; };
+		B001010 /* TransactionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001010 /* TransactionService.swift */; };
+		B001011 /* BudgetAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001011 /* BudgetAnalytics.swift */; };
+		B001012 /* ExportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001012 /* ExportService.swift */; };
+		B001013 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001013 /* NotificationManager.swift */; };
+		B001014 /* AnalyticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001014 /* AnalyticsService.swift */; };
+		B001015 /* TransactionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001015 /* TransactionViewModel.swift */; };
+		B001016 /* BudgetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001016 /* BudgetViewModel.swift */; };
+		B001017 /* ReportsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001017 /* ReportsViewModel.swift */; };
+		B001018 /* NetWorthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001018 /* NetWorthViewModel.swift */; };
+		B001019 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001019 /* HomeView.swift */; };
+		B001020 /* TransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001020 /* TransactionsView.swift */; };
+		B001021 /* TransactionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001021 /* TransactionRowView.swift */; };
+		B001022 /* AddTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001022 /* AddTransactionView.swift */; };
+		B001023 /* BudgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001023 /* BudgetView.swift */; };
+		B001024 /* AddBudgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001024 /* AddBudgetView.swift */; };
+		B001025 /* ReportsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001025 /* ReportsView.swift */; };
+		B001026 /* NetWorthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001026 /* NetWorthView.swift */; };
+		B001027 /* AccountsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001027 /* AccountsView.swift */; };
+		B001028 /* BillRemindersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001028 /* BillRemindersView.swift */; };
+		B001029 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001029 /* PaywallView.swift */; };
+		B001030 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001030 /* OnboardingView.swift */; };
+		B001031 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001031 /* SettingsView.swift */; };
+		B001032 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A001032 /* Info.plist */; };
+		B001033 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A001033 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A001001 /* LedgerFinanceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedgerFinanceApp.swift; sourceTree = "<group>"; };
+		A001002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A001003 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		A001004 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		A001005 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		A001006 /* Budget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Budget.swift; sourceTree = "<group>"; };
+		A001007 /* BillReminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillReminder.swift; sourceTree = "<group>"; };
+		A001008 /* NetWorthEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorthEntry.swift; sourceTree = "<group>"; };
+		A001009 /* StoreKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKitManager.swift; sourceTree = "<group>"; };
+		A001010 /* TransactionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionService.swift; sourceTree = "<group>"; };
+		A001011 /* BudgetAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetAnalytics.swift; sourceTree = "<group>"; };
+		A001012 /* ExportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportService.swift; sourceTree = "<group>"; };
+		A001013 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		A001014 /* AnalyticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsService.swift; sourceTree = "<group>"; };
+		A001015 /* TransactionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewModel.swift; sourceTree = "<group>"; };
+		A001016 /* BudgetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetViewModel.swift; sourceTree = "<group>"; };
+		A001017 /* ReportsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsViewModel.swift; sourceTree = "<group>"; };
+		A001018 /* NetWorthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorthViewModel.swift; sourceTree = "<group>"; };
+		A001019 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A001020 /* TransactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsView.swift; sourceTree = "<group>"; };
+		A001021 /* TransactionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRowView.swift; sourceTree = "<group>"; };
+		A001022 /* AddTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionView.swift; sourceTree = "<group>"; };
+		A001023 /* BudgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetView.swift; sourceTree = "<group>"; };
+		A001024 /* AddBudgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBudgetView.swift; sourceTree = "<group>"; };
+		A001025 /* ReportsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsView.swift; sourceTree = "<group>"; };
+		A001026 /* NetWorthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorthView.swift; sourceTree = "<group>"; };
+		A001027 /* AccountsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsView.swift; sourceTree = "<group>"; };
+		A001028 /* BillRemindersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillRemindersView.swift; sourceTree = "<group>"; };
+		A001029 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		A001030 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		A001031 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A001032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A001033 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A001034 /* LedgerFinance.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LedgerFinance.entitlements; sourceTree = "<group>"; };
+		PROD0001 /* LedgerFinance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LedgerFinance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FW000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		GRP00001 = {
+			isa = PBXGroup;
+			children = (
+				GRP00002 /* LedgerFinance */,
+				GRP00099 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		GRP00099 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				PROD0001 /* LedgerFinance.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		GRP00002 /* LedgerFinance */ = {
+			isa = PBXGroup;
+			children = (
+				A001001 /* LedgerFinanceApp.swift */,
+				A001002 /* ContentView.swift */,
+				A001032 /* Info.plist */,
+				A001033 /* GoogleService-Info.plist */,
+				A001034 /* LedgerFinance.entitlements */,
+				GRP00010 /* Models */,
+				GRP00020 /* Services */,
+				GRP00030 /* ViewModels */,
+				GRP00040 /* Views */,
+			);
+			path = LedgerFinance;
+			sourceTree = "<group>";
+		};
+		GRP00010 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A001003 /* Transaction.swift */,
+				A001004 /* Account.swift */,
+				A001005 /* Category.swift */,
+				A001006 /* Budget.swift */,
+				A001007 /* BillReminder.swift */,
+				A001008 /* NetWorthEntry.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		GRP00020 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A001009 /* StoreKitManager.swift */,
+				A001010 /* TransactionService.swift */,
+				A001011 /* BudgetAnalytics.swift */,
+				A001012 /* ExportService.swift */,
+				A001013 /* NotificationManager.swift */,
+				A001014 /* AnalyticsService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		GRP00030 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A001015 /* TransactionViewModel.swift */,
+				A001016 /* BudgetViewModel.swift */,
+				A001017 /* ReportsViewModel.swift */,
+				A001018 /* NetWorthViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		GRP00040 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A001019 /* HomeView.swift */,
+				A001020 /* TransactionsView.swift */,
+				A001021 /* TransactionRowView.swift */,
+				A001022 /* AddTransactionView.swift */,
+				A001023 /* BudgetView.swift */,
+				A001024 /* AddBudgetView.swift */,
+				A001025 /* ReportsView.swift */,
+				A001026 /* NetWorthView.swift */,
+				A001027 /* AccountsView.swift */,
+				A001028 /* BillRemindersView.swift */,
+				A001029 /* PaywallView.swift */,
+				A001030 /* OnboardingView.swift */,
+				A001031 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		TARGET001 /* LedgerFinance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BLDCFG001 /* Build configuration list for PBXNativeTarget "LedgerFinance" */;
+			buildPhases = (
+				SRC00001 /* Sources */,
+				FW000001 /* Frameworks */,
+				RES00001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LedgerFinance;
+			productName = LedgerFinance;
+			productReference = PROD0001 /* LedgerFinance.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		PROJ0001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					TARGET001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = BLDCFG000 /* Build configuration list for PBXProject "LedgerFinance" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = GRP00001;
+			productRefGroup = GRP00099 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				TARGET001 /* LedgerFinance */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		RES00001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B001033 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		SRC00001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B001001 /* LedgerFinanceApp.swift in Sources */,
+				B001002 /* ContentView.swift in Sources */,
+				B001003 /* Transaction.swift in Sources */,
+				B001004 /* Account.swift in Sources */,
+				B001005 /* Category.swift in Sources */,
+				B001006 /* Budget.swift in Sources */,
+				B001007 /* BillReminder.swift in Sources */,
+				B001008 /* NetWorthEntry.swift in Sources */,
+				B001009 /* StoreKitManager.swift in Sources */,
+				B001010 /* TransactionService.swift in Sources */,
+				B001011 /* BudgetAnalytics.swift in Sources */,
+				B001012 /* ExportService.swift in Sources */,
+				B001013 /* NotificationManager.swift in Sources */,
+				B001014 /* AnalyticsService.swift in Sources */,
+				B001015 /* TransactionViewModel.swift in Sources */,
+				B001016 /* BudgetViewModel.swift in Sources */,
+				B001017 /* ReportsViewModel.swift in Sources */,
+				B001018 /* NetWorthViewModel.swift in Sources */,
+				B001019 /* HomeView.swift in Sources */,
+				B001020 /* TransactionsView.swift in Sources */,
+				B001021 /* TransactionRowView.swift in Sources */,
+				B001022 /* AddTransactionView.swift in Sources */,
+				B001023 /* BudgetView.swift in Sources */,
+				B001024 /* AddBudgetView.swift in Sources */,
+				B001025 /* ReportsView.swift in Sources */,
+				B001026 /* NetWorthView.swift in Sources */,
+				B001027 /* AccountsView.swift in Sources */,
+				B001028 /* BillRemindersView.swift in Sources */,
+				B001029 /* PaywallView.swift in Sources */,
+				B001030 /* OnboardingView.swift in Sources */,
+				B001031 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CFG00001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFG00002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFG00003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LedgerFinance/LedgerFinance.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LedgerFinance/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appfactory.ledgerfinance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFG00004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LedgerFinance/LedgerFinance.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LedgerFinance/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appfactory.ledgerfinance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BLDCFG000 /* Build configuration list for PBXProject "LedgerFinance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFG00001 /* Debug */,
+				CFG00002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BLDCFG001 /* Build configuration list for PBXNativeTarget "LedgerFinance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFG00003 /* Debug */,
+				CFG00004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = PROJ0001 /* Project object */;
+}
