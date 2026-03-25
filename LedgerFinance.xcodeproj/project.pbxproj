@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -38,8 +38,8 @@
 		B001029 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001029 /* PaywallView.swift */; };
 		B001030 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001030 /* OnboardingView.swift */; };
 		B001031 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001031 /* SettingsView.swift */; };
-		B001032 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A001032 /* Info.plist */; };
 		B001033 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A001033 /* GoogleService-Info.plist */; };
+		29271F26F19C4DA797D80AE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B66BD5AAD34425F858BBE3B /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +78,7 @@
 		A001033 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A001034 /* LedgerFinance.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LedgerFinance.entitlements; sourceTree = "<group>"; };
 		PROD0001 /* LedgerFinance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LedgerFinance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B66BD5AAD34425F858BBE3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,14 +100,6 @@
 			);
 			sourceTree = "<group>";
 		};
-		GRP00099 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				PROD0001 /* LedgerFinance.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		GRP00002 /* LedgerFinance */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +112,7 @@
 				GRP00020 /* Services */,
 				GRP00030 /* ViewModels */,
 				GRP00040 /* Views */,
+							3B66BD5AAD34425F858BBE3B /* Assets.xcassets */,
 			);
 			path = LedgerFinance;
 			sourceTree = "<group>";
@@ -180,6 +174,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		GRP00099 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				PROD0001 /* LedgerFinance.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -239,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B001033 /* GoogleService-Info.plist in Resources */,
+							29271F26F19C4DA797D80AE6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +415,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 7RS696YC75;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = LedgerFinance/Info.plist;
@@ -440,6 +444,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 7RS696YC75;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = LedgerFinance/Info.plist;
@@ -481,7 +486,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
 	};
 	rootObject = PROJ0001 /* Project object */;
 }
